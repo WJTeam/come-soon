@@ -25,7 +25,7 @@ $mail->Username   = "user@example.com"; // SMTP account username example
 $mail->Password   = "xx";        // SMTP account password example
 
 $mail->setFrom('user@example.com', 'WeJiang Robot');
-$mail->addAddress($email);     // Add a recipient
+$mail->addAddress('caizhenghai@gmail.com');     // Add a recipient
 
 $mail->Subject = 'WeJiang 上线通知谁？';
 $mail->Body    = "WeJiang 上线通知 - 【{$email}】，现在时间是：".date('Y-m-d H:i:s');
